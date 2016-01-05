@@ -1,0 +1,6 @@
+# Ignore Mac file
+.DS_Store
+
+#Ignore sass output
+.sass-cache/
+snippets.css
