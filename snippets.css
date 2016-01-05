@@ -1,0 +1,12 @@
+/* Use :not to un-apply the border on the last child */
+
+.border li:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+
+/* Use :not to have a proper comma separated list - no border on the last child */
+
+.comma > li:not(:last-child)::after {
+  content: ",";
+}
